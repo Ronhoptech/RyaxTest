@@ -1,0 +1,19 @@
+apiVersion: "ryax.tech/v1"
+kind: Functions
+spec:
+  id: test_file_in
+  human_name: Check Input
+  type: python3
+  version: "1.0"
+  logo: logo.png
+  detail: "Samples file input test"
+  inputs:
+  - help: input a pdf file 
+    human_name: file to process
+    name: data_path
+    type: file
+  outputs:
+  - help: simple output
+    human_name: oss
+    name: oss
+    type: integer
