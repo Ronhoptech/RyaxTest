@@ -14,6 +14,6 @@ spec:
     type: file
   outputs:
   - help: simple output
-    human_name: oss
-    name: oss
-    type: int
+    human_name: test_out
+    name: test_out
+    type: integer
