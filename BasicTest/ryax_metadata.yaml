@@ -16,4 +16,4 @@ spec:
   - help: simple output
     human_name: oss
     name: oss
-    type: integer
+    type: int
