@@ -5,7 +5,6 @@ spec:
   human_name: Check Input
   type: python3
   version: "1.0"
-  logo: logo.png
   detail: "Samples file input test"
   inputs:
   - help: input a pdf file 
